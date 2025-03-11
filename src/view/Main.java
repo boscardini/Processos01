@@ -16,9 +16,9 @@ public class Main {
 			System.out.println ("Digite:"+"\n"+" 1 - Para chamada do método ip"+"\n"+" 2 - Para chamada do método ping"+"\n"+" 3 - Para finalizar a aplicação ");
 			menu= scan.nextInt ();
 			if (menu==1){
-				pCont.ip ("");
+				pCont.ip ();
 			} else if (menu==2) {
-				pCont.ping ("");
+				pCont.ping ();
 			}else {
 				if (menu==3) {
 				System.out.println ("Aplicação finalizada.");}

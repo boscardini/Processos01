@@ -21,9 +21,9 @@ public class RedesController {
 	}
 	
 	
-	public void ip (String comand) {
+	public void ip () {
 		String sistemaoperacional = os();
-		
+		String comand=null;
 		if (sistemaoperacional.contains("Win"))
 		{
 		 comand = "ipconfig";
@@ -70,9 +70,9 @@ public class RedesController {
 		
 		}
 	      
-	       public void ping (String comando) {
+	       public void ping () {
 	    	   String sistemaoperacional = os();
-	    	 
+	    	  String comando=null;
 	    	   
 	    	   if (sistemaoperacional.contains("Win")) {
 	    		   comando= "ping -4 -n 10 www.google.com.br";
